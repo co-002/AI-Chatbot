@@ -1,7 +1,6 @@
 import React, { createContext, useEffect, useState } from "react";
 import axios from "axios";
 
-// https://chatgpt.com/c/67d1c2e9-6870-8002-a588-d9734d14b480
 const AppContext = createContext(null);
 
 const AppState = ({ children }) => {
